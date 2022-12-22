@@ -1,0 +1,16 @@
+.articles{
+    display: flex;
+}
+.articles_main{
+    width: 50%;
+}
+.articles_others{
+    width: 50%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .articles{
+        flex-direction: column;
+    }    
+}

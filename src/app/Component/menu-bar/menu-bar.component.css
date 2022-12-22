@@ -1,0 +1,29 @@
+nav{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    font-family:  Tahoma, sans-serif
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+li>a{
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+@media  screen and (max-width: 768px) {
+    ul{
+        width: 100%;
+    }
+    
+}
