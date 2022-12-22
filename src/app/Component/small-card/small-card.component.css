@@ -1,31 +1,34 @@
-.small_card_container{
+.small_card_container {
     width: 450px;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;    
+    padding: 15px;
     margin: 5px;
-    
+
 }
 
-.smallCard_img > img{
+.smallCard_img>img {
     width: 12rem;
     height: 8rem;
-    margin-right:20px;
-    
+    margin-right: 20px;
+
 }
 
-.smallCard_content{
-    color: antiquewhite;
-    
+.smallCard_content {
+    display: flex;
+    flex-direction: column;
+
 }
 
-.smallCard_content > span{
-    color: #8d8c8c ;
+.smallCard_content>span {
+    color: #8d8c8c;
     font-size: 10px;
 }
 
-.smallCard_content > p{
+.smallCard_content>a {
     font-size: 20px;
     font-family: 'Segoe UI', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
 }

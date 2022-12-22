@@ -9,6 +9,7 @@ import { BigCardComponent } from './Component/big-card/big-card.component';
 import { SmallCardComponent } from './Component/small-card/small-card.component';
 import { HomeComponent } from './screens/home/home.component';
 import { MenuBarComponent } from './Component/menu-bar/menu-bar.component';
+import { ContentComponent } from './screens/content/content.component';
 
 
 
@@ -20,6 +21,7 @@ import { MenuBarComponent } from './Component/menu-bar/menu-bar.component';
     SmallCardComponent,
     HomeComponent,
     MenuBarComponent,
+    ContentComponent,
 
   ],
   imports: [

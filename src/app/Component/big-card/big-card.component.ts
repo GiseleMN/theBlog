@@ -8,9 +8,14 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover: string="https://cdn.pixabay.com/photo/2015/02/04/05/01/musician-623362_960_720.jpg";
-  cardTitle: string="Musica é vida!";
-  cardContent: string="Musica te leva a um nivel maior de felicidade e experiência na vida... se não se permitiu cair nessa jornada... permita-se cair nessa experiencia incrivél!!";
+  id: string = '0';
+  @Input()
+  photoCover: string = "https://cdn.pixabay.com/photo/2015/02/04/05/01/musician-623362_960_720.jpg";
+  @Input()
+  cardTitle: string = "Musica é vida!";
+  @Input()
+  cardContent: string = "Musica te leva a um nivel maior de felicidade e experiência na vida... se não se permitiu cair nessa jornada... permita-se cair nessa experiencia incrivél!!";
+  span: string = 'Image by: pixabay.com';
 
 
   constructor() { }
