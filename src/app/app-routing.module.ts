@@ -5,11 +5,15 @@ import { HomeComponent } from './screens/home/home.component';
 
 const routes: Routes = [
   {
-    path: '', component: HomeComponent
+    path: '', component: HomeComponent, pathMatch: 'full'
   },
   {
     path: 'content/:id', component: ContentComponent
+  },
+  {
+    path: '**', redirectTo: ''
   }
+
 ];
 
 @NgModule({
